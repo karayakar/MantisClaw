@@ -3,7 +3,7 @@
   <img src="https://github.com/karayakar/MantisClaw-v1/blob/main/mantis-claw-logo.png" width="600"/>
 </p>
 <p align="center">
-<a href="https://github.com/karayakar/MantisClaw-v1/blob/main/MantisClaw.rar">Download Here</a> 
+<a href="https://mantisclaw.yapzek.ai" target="_blank">Download Here</a> 
 </p>
 <p align="center">
 
