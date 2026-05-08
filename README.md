@@ -6,7 +6,7 @@
 
 ## Multi-Platform  - Windows / Linux / Mac OS - Intel / Mac OS Silicon
 
----
+---.
 
 ##  Use Computer & Browser
 - Open webcam - Use Real Browser (Pass Cloudflare & bot verifications) -Take Screenshot - scroll - click_button - login - check-email
