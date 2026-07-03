@@ -1,1 +1,235 @@
-PGgxIGFsaWduPSJjZW50ZXIiPvCfppcgTWFudGlzQ2xhdyAtIERlc2t0b3AgQ1VBIChDb21wdXRlciBVc2UgQWdlbnQpPC9oMT4KCi0tLQoKIyMgTXVsdGktUGxhdGZvcm0gIC0gV2luZG93cyAvIExpbnV4IC8gTWFjIE9TIC0gSW50ZWwgLyBNYWMgT1MgU2lsaWNvbgoKLS0tLgoKIyMgIFVzZSBDb21wdXRlciAmIEJyb3dzZXIKLSBPcGVuIHdlYmNhbSAtIFVzZSBSZWFsIEJyb3dzZXIgKFBhc3MgQ2xvdWRmbGFyZSAmIGJvdCB2ZXJpZmljYXRpb25zKSAtVGFrZSBTY3JlZW5zaG90IC0gc2Nyb2xsIC0gY2xpY2tfYnV0dG9uIC0gbG9naW4gLSBjaGVjay1lbWFpbAogIAotLS0KIyMgVW5saW1pdGVkIEFnZW50cwotLS0KLSBVbmxpbWl0ZWQgU2NlbmFyaW9zIC0gVW5saW1pdGVkIFNraWxscyAoSXQgd3JpdGVzLCBkZWJ1ZywgZXhlY3V0ZXMgc2tpbGxzIGJ5IGl0c2VsZiAtU2VsZi1oZWFsaW5nKQoKIyMjIENoYW5uZWxzCkNvbm5lY3QgYW5kIG1hbmFnZSBtdWx0aXBsZSBtZXNzYWdpbmcgY2hhbm5lbHMg4oCUIFdoYXRzQXBwLCBUZWxlZ3JhbSwgU2xhY2ssIEJ1aWx0LWluIENoYXQsIEJsZW5kZXIgQ2hhdCAuLiBhbmQgbW9yZS4KCiFbQ2hhbm5lbHNdKGh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvYXNzZXRzL1NjcmVlbnNob3RzL0NoYW5uZWxzLnBuZykKCgo8cCBhbGlnbj0iY2VudGVyIj4KICA8YSBocmVmPSJodHRwczovL21hbnRpc2NsYXcueWFwemVrLmFpIj4KICAgIDxpbWcgc3JjPSJodHRwczovL21hbnRpc2NsYXcueWFwemVrLmFpL2Fzc2V0cy9TY3JlZW5zaG90cy9BcmNoaXRlY3R1cmUucG5nIiBhbHQ9Ik1hbnRpc0NsYXcgQXJjaGl0ZWN0dXJlIiB3aWR0aD0iMTAwJSIgLz4KICA8L2E+CjwvcD4KCjxwIGFsaWduPSJjZW50ZXIiPjxzdHJvbmc+TXVsdGktUGxhdGZvcm0gQXV0b25vbW91cyBBZ2VudCDigJQgQ29udHJvbCBmcm9tIFdoYXRzQXBwLCBUZWxlZ3JhbSwgU2xhY2ssIGFuZCBtb3JlPC9zdHJvbmc+PC9wPgo8cCBhbGlnbj0iY2VudGVyIj48ZW0+VGhlIGJlc3QgR1VJIENvbXB1dGVyIFVzZSBBZ2VudC4gTm8gY29tcGxleCBzZXR1cCDigJQganVzdCBkb3dubG9hZCBhbmQgcnVuLiBBbGwgZmVhdHVyZXMgYXJlIGFscmVhZHkgYnVpbHQtaW4uPC9lbT48L3A+Cgo8cCBhbGlnbj0iY2VudGVyIj4KICA8YSBocmVmPSJodHRwczovL21hbnRpc2NsYXcueWFwemVrLmFpIj7wn4yQIFdlYnNpdGU8L2E+ICZuYnNwO+KAtyZuYnNwOwogIDxhIGhyZWY9Imh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvZG93bmxvYWQiIHRhcmdldD0iX2JsYW5rIj7irI/vuI8gRG93bmxvYWQ8L2E+ICZuYnNwO+KAtyZuYnNwOwogIDxhIGhyZWY9IiMtLWRlbW8tdmlkZW9zIj7wn46sIERlbW8gVmlkZW9zPC9hPiAmbmJzcDvigLcmbmJzcDsKICA8YSBocmVmPSIjLS1wbGF0Zm9ybS1zY3JlZW5zaG90cyI+8J+TuCBTY3JlZW5zaG90czwvYT4KPC9wPgoKLS0tCgpNYW50aXNDbGF3IGludGVncmF0ZXMgYXV0b25vbW91cyBhZ2VudHMgYWNyb3NzIG11bHRpcGxlIGNoYW5uZWxzIHNvIHlvdSBjYW4gbWFuYWdlIHdvcmtmbG93cywgdHJpZ2dlciBhY3Rpb25zLCBhbmQgbW9uaXRvciBvcGVyYXRpb25zIGRpcmVjdGx5IGZyb20geW91ciBwcmVmZXJyZWQgbWVzc2FnaW5nIHBsYXRmb3JtLgoKIyMgRGVtbyBWaWRlb3MKCi0gW1dhdGNoIERlbW8gMV0oaHR0cHM6Ly9tYW50aXNjbGF3LnlhcHplay5haS9hc3NldHMvVmlkZW9zL01hbnRpc0NsYXdfRGVtb18xLm1wNCkKLSBbV2F0Y2ggRGVtbyAyXShodHRwczovL21hbnRpc2NsYXcueWFwemVrLmFpL2Fzc2V0cy9WaWRlb3MvTWFudGlzQ2xhd19EZW1vXzIubXA0KQotIFtXYXRjaCBEZW1vIDNdKGh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvYXNzZXRzL1ZpZGVvcy9NYW50aXNDbGF3X0RlbW9fMy5tcDQpCi0gW1dhdGNoIERlbW8gNF0oaHR0cHM6Ly9tYW50aXNjbGF3LnlhcHplay5haS9hc3NldHMvVmlkZW9zL01hbnRpc0NsYXdfRGVtb180Lm1wNCkKLSBbV2F0Y2ggRGVtbyA1XShodHRwczovL21hbnRpc2NsYXcueWFwemVrLmFpL2Fzc2V0cy9WaWRlb3MvTWFudGlzQ2xhd19EZW1vXzUubXA0KQotIFtXYXRjaCBEZW1vIDZdKGh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvYXNzZXRzL1ZpZGVvcy9NYW50aXNDbGF3X0RlbW9fNi5tcDQpCgotLS0KCiMjIFdoYXQncyBOZXcKCi0g4pyFIFdoYXRzQXBwLCBUZWxlZ3JhbSwgU2xhY2ssIEJ1aWx0LWluIENoYXRVSQotIOKchSBCbGVuZGVyIE1DUCBDb250cm9sIFVJCi0g4pyFIE1DUCBTdXBwb3J0Ci0g4pyFIE9wZW5BSSBDb21wYXRpYmxlIFRvb2xzCi0g4pyFIEFkdmFuY2VkIEhUVFAgQ2FsbCBTdXBwb3J0Ci0g8J+apyBXb3JrZmxvdyBOb2RlIFJlZ2lzdHJ5IChQT0MpCi0g8J+apyBXb3JrZmxvdyBUZW1wbGF0ZXMgKFVuZGVyIERldmVsb3BtZW50KQoKLS0tCgojIyBXaHkgTWFudGlzQ2xhdyBTdGFuZHMgT3V0Cgp8IEZlYXR1cmUgfCBEZXRhaWxzIHwKfC0tLS0tLS0tLXwtLS0tLS0tLS18CnwgKipMb2NhbCBEYXRhYmFzZSoqIHwgWW91ciBhY2NvdW50cyAmIGtleXMgbmV2ZXIgbGVhdmUgeW91ciBjb21wdXRlciB8CnwgKipSdW50aW1lIEtleSBJbmplY3Rpb24qKiB8IEtleXMgaW5qZWN0ZWQgYXQgcnVudGltZSwgbmV2ZXIgc2VudCB0byBMTE0gfAp8ICoqQnVpbHQtaW4gT2ZmaWNlIEVuZ2luZSoqIHwgV29yZCwgRXhjZWwsIFBvd2VyUG9pbnQsIFBERiDigJQgbm8gZXh0ZXJuYWwgYXBwcyBuZWVkZWQgfAoKLS0tCgojIyBQbGF0Zm9ybSBDYXBhYmlsaXRpZXMKCi0gQ29udHJvbCBhZ2VudHMgZnJvbSBXaGF0c0FwcCwgVGVsZWdyYW0sIFNsYWNrLCBhbmQgbW9yZQotIFJ1biBhdXRvbm9tb3VzIHRhc2tzIG9uIHJlYWwgZGVza3RvcCBlbnZpcm9ubWVudHMKLSBPcmNoZXN0cmF0ZSBtdWx0aXBsZSBhZ2VudHMgYWNyb3NzIHRlYW1zLCBjaGF0cywgYW5kIHdvcmtmbG93cwotIFVzZSBjb25uZWN0b3JzLCB0b29scywgYW5kIGJyb3dzZXItaW50ZWdyYXRlZCBhdXRvbWF0aW9uCi0gU3VwcG9ydCBsb2NhbC1maXJzdCBzZWN1cml0eSBmb3IgZGF0YSBhbmQga2V5cwoKLS0tCgojIyBIb3cgTWFudGlzQ2xhdyBXb3JrcwoKMS4gQ29ubmVjdCB5b3VyIGNoYW5uZWxzIGFuZCBhY2NvdW50cwoyLiBDcmVhdGUgb3IgYXNzaWduIGFnZW50cyB0byB0YXNrcyBvciB0ZWFtcwozLiBUcmlnZ2VyIGNvbW1hbmRzIGZyb20gY2hhdCBvciBhdXRvbWF0aW9uIHJ1bGVzCjQuIFN1cGVydmlzZSByZXN1bHRzLCBsb2dzLCBhbmQgYXBwcm92YWxzIGluIHJlYWwgdGltZQo1LiBTY2FsZSB3aXRoIHNraWxscywgd29ya2Zsb3dzLCBhbmQgdGVtcGxhdGVzCgotLS0KCiMjIEFnZW50IEFyY2hpdGVjdHVyZQoKYGBgdGV4dApbV2hhdHNBcHAgLyBUZWxlZ3JhbSAvIFNsYWNrIC8gQ2hhdF1cCiAgICAgICAgfAogICAgICAgIHYKW0NoYW5uZWwgTGF5ZXJdCiAgICAgICAgfAogICAgICAgIHYKW0FnZW50IE9yY2hlc3RyYXRvcl0KICAgICAgICB8CiAgICAgICAgduKGkCBbU2tpbGxzIC8gVG9vbHMgLyBNQ1BdCiAgICAgICAgdgpbTG9jYWwgRXhlY3V0aW9uIEVudmlyb25tZW50XQogICAgICAgIHwKICAgICAgICB24oaQIFtCcm93c2VyIC8gRmlsZXMgLyBBUElzIC8gT2ZmaWNlIEVuZ2luZV0KYGBgCgotLS0KCiMjIEFnZW50IENvbnRyb2wgRmxvdwoKLSBVc2VyIHNlbmRzIGEgY29tbWFuZCB2aWEgV2hhdHNBcHAvVGVsZWdyYW0vU2xhY2sKLSBNYW50aXNDbGF3IHJvdXRlcyB0aGUgcmVxdWVzdCB0byB0aGUgcmlnaHQgYWdlbnQKLSBBZ2VudCBleGVjdXRlcyB0b29scywgYnJvd3NlciBzdGVwcywgb3Igd29ya2Zsb3dzCi0gUmVzdWx0cyBhcmUgcmV0dXJuZWQgdG8gdGhlIHNhbWUgY2hhdCBjaGFubmVsCi0gT3B0aW9uYWwgYXBwcm92YWwsIGxvZ2dpbmcsIGFuZCBzdXBlcnZpc2lvbiBhcmUgYXBwbGllZAoKLS0tCgojIyDdnZQgV2h5IE1hbnRpc0NsYXc/CgotIERlc2t0b3AtZmlyc3QgYXV0b25vbW91cyBhZ2VudCBleHBlcmllbmNlCi0gQ2hhdC1uYXRpdmUgY29udHJvbCBhY3Jvc3MgbXVsdGlwbGUgcGxhdGZvcm1zCi0gQnVpbHQtaW4gc2VjdXJpdHkgbW9kZWwgZm9yIHNlbnNpdGl2ZSBhdXRvbWF0aW9uCi0gTm8gY29tcGxleCBpbnN0YWxsYXRpb24gb3IgZXh0ZXJuYWwgdG9vbGluZyByZXF1aXJlZAotIERlc2lnbmVkIGZvciByZWFsIG9wZXJhdGlvbnMsIG5vdCBqdXN0IGRlbW9zCgotLS0KCiMjIFBsYXRmb3JtIFNjcmVlbnNob3RzCgo8cCBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iaHR0cHM6Ly9tYW50aXNjbGF3LnlhcHplay5haS9hc3NldHMvU2NyZWVuc2hvdHMvQ2hhdFVJLmpwZyIgYWx0PSJDaGF0IFVJIiB3aWR0aD0iODUlIiAvPgo8L3A+Cgo8cCBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iaHR0cHM6Ly9tYW50aXNjbGF3LnlhcHplay5haS9hc3NldHMvU2NyZWVuc2hvdHMvQ2hhdFN1cHBvcnQuanBnIiBhbHQ9IkNoYW5uZWwgU3VwcG9ydCIgd2lkdGg9Ijg1JSIgLz4KPC9wPgoKPHAgYWxpZ249ImNlbnRlciI+CiAgPGltZyBzcmM9Imh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvYXNzZXRzL1NjcmVlbnNob3RzL0FnZW50TWFuYWdlLmpwZyIgYWx0PSJBZ2VudCBNYW5hZ2VtZW50IiB3aWR0aD0iODUlIiAvPgo8L3A+Cgo8cCBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iaHR0cHM6Ly9tYW50aXNjbGF3LnlhcHplay5haS9hc3NldHMvU2NyZWVuc2hvdHMvQWdlbnREZXRhaWwuanBnIiBhbHQ9IkFnZW50IERldGFpbCIgd2lkdGg9Ijg1JSIgLz4KPC9wPgoKPHAgYWxpZ249ImNlbnRlciI+CiAgPGltZyBzcmM9Imh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvYXNzZXRzL1NjcmVlbnNob3RzL0FnZW50RXhlY3V0aW9uLmpwZyIgYWx0PSJBZ2VudCBFeGVjdXRpb24iIHdpZHRoPSI4NSUiIC8+CjwvcD4KCiAgICA8cCBhbGlnbj0iY2VudGVyIj4KICAgICAgPGltZyBzcmM9Imh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvYXNzZXRzL1NjcmVlbnNob3RzL0FnZW50Q29uZmlnLmpwZyIgYWx0PSJBZ2VudCBDb25maWciIHdpZHRoPSI4NSUiIC8+CiAgICA8L3A+CiAgICAKICAgIDxwIGFsaWduPSJjZW50ZXIiPgogICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9tYW50aXNjbGF3LnlhcHplay5haS9hc3NldHMvU2NyZWVuc2hvdHMvQnJvd3Nlci5qcGciIGFsdD0iQnJvd3NlciBBdXRvbWF0aW9uIiB3aWR0aD0iODUlIiAvPgogICAgPC9wPgogICAgCiAgICA8cCBhbGlnbj0iY2VudGVyIj4KICAgICAgPGltZyBzcmM9Imh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvYXNzZXRzL1NjcmVlbnNob3RzL0Jyb3dzZXJDb250cm9sLmpwZyIgYWx0PSJCcm93c2VyIENvbnRyb2wiIHdpZHRoPSI4NSUiIC8+CiAgICA8L3A+CiAgICAKICAgIDxwIGFsaWduPSJjZW50ZXIiPgogICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9tYW50aXNjbGF3LnlhcHplay5haS9hc3NldHMvU2NyZWVuc2hvdHMvQnVpbGRlci5qcGciIGFsdD0iV29ya2Zsb3cgQnVpbGRlciIgd2lkdGg9Ijg1JSIgLz4KICAgIDwvcD4KICAgIAogICAgPHAgYWxpZ249ImNlbnRlciI-CiAgICAgIDxpbWcgc3JjPSJodHRwczovL21hbnRpc2NsYXcueWFwemVrLmFpL2Fzc2V0cy9TY3JlZW5zaG90cy9Ob2Rlcy5qcGciIGFsdD0iTm9kZSBSZWdpc3RyeSIgd2lkdGg9Ijg1JSIgLz4KICAgIDwvcD4KICAgIAogICAgPHAgYWxpZ249ImNlbnRlciI-CiAgICAgIDxpbWcgc3JjPSJodHRwczovL21hbnRpc2NsYXcueWFwemVrLmFpL2Fzc2V0cy9TY3JlZW5zaG90cy9CbGVuZGVyLmpwZyIgYWx0PSJCbGVuZGVyIEludGVncmF0aW9uIiB3aWR0aD0iODUlIiAvPgogICAgPC9wPgogICAgCiAgICA8cCBhbGlnbj0iY2VudGVyIj4KICAgICAgPGltZyBzcmM9Imh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvYXNzZXRzL1NjcmVlbnNob3RzL0NvZGVFeGVjdXRpb24uanBnIiBhbHQ9IkNvZGUgRXhlY3V0aW9uIiB3aWR0aD0iODUlIiAvPgogICAgPC9wPgogICAgCiAgICA8cCBhbGlnbj0iY2VudGVyIj4KICAgICAgPGltZyBzcmM9Imh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvYXNzZXRzL1NjcmVlbnNob3RzL0ZpbGVWaWV3LmpwZyIgYWx0PSJGaWxlIFZpZXciIHdpZHRoPSI4NSUiIC8-CiAgICA8L3A-CiAgICAKICAgIDxwIGFsaWduPSJjZW50ZXIiPgogICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9tYW50aXNjbGF3LnlhcHplay5haS9hc3NldHMvU2NyZWVuc2hvdHMvQnVpbHRJbk9mZmljZS5qcGciIGFsdD0iQnVpbHQtSW4gT2ZmaWNlIEVuZ2luZSIgd2lkdGg9Ijg1JSIgLz4KICAgIDwvcD4KICAgIAogICAgPHAgYWxpZ249ImNlbnRlciI-CiAgICAgIDxpbWcgc3JjPSJodHRwczovL21hbnRpc2NsYXcueWFwemVrLmFpL2Fzc2V0cy9TY3JlZW5zaG90cy9Mb2NhbERhdGFiYXNlLmpwZyIgYWx0PSJMb2NhbCBEYXRhYmFzZSIgd2lkdGg9Ijg1JSIgLz4KICAgIDwvcD4KICAgIAogICAgPHAgYWxpZ249ImNlbnRlciI-CiAgICAgIDxpbWcgc3JjPSJodHRwczovL21hbnRpc2NsYXcueWFwemVrLmFpL2Fzc2V0cy9TY3JlZW5zaG90cy9TZXJ2aWNlcy5qcGciIGFsdD0iQ29ubmVjdGVkIFNlcnZpY2VzIiB3aWR0aD0iODUlIiAvPgogICAgPC9wPgogICAgCiAgICA8cCBhbGlnbj0iY2VudGVyIj4KICAgICAgPGltZyBzcmM9Imh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvYXNzZXRzL1NjcmVlbnNob3RzL1NjaGVkdWxlci5qcGciIGFsdD0iU2NoZWR1bGVyIiB3aWR0aD0iODUlIiAvPgogICAgPC9wPgogICAgCiAgICA8cCBhbGlnbj0iY2VudGVyIj4KICAgICAgPGltZyBzcmM9Imh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvYXNzZXRzL1NjcmVlbnNob3RzL1NldHRpbmdzLmpwZyIgYWx0PSJTZXR0aW5ncyIgd2lkdGg9Ijg1JSIgLz4KICAgIDwvcD4K
+<h1 align="center">🦗 MantisClaw - Desktop CUA (Computer Use Agent)</h1>
+
+---
+
+## Multi-Platform  - Windows / Linux / Mac OS - Intel / Mac OS Silicon
+
+---.
+
+##  Use Computer & Browser
+- Open webcam - Use Real Browser (Pass Cloudflare & bot verifications) -Take Screenshot - scroll - click_button - login - check-email
+  
+---
+## Unlimited Agents
+---
+- Unlimited Scenarios - Unlimited Skills (It writes, debug, executes skills by itself -Self-healing)
+
+### Channels
+Connect and manage multiple messaging channels — WhatsApp, Telegram, Slack, Built-in Chat, Blender Chat .. and more.
+
+![Channels](https://mantisclaw.yapzek.ai/assets/Screenshots/Channels.png)
+
+
+<p align="center">
+  <a href="https://mantisclaw.yapzek.ai">
+    <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/Architecture.png" alt="MantisClaw Architecture" width="100%" />
+  </a>
+</p>
+
+<p align="center"><strong>Multi-Platform Autonomous Agent — Control from WhatsApp, Telegram, Slack, and more</strong></p>
+<p align="center"><em>The best GUI Computer Use Agent. No complex setup — just download and run. All features are already built-in.</em></p>
+
+<p align="center">
+  <a href="https://mantisclaw.yapzek.ai">🌐 Website</a> &nbsp;·&nbsp;
+  <a href="https://mantisclaw.yapzek.ai/download" target="_blank">⬇️ Download</a> &nbsp;·&nbsp;
+  <a href="#-demo-videos">🎬 Demo Videos</a> &nbsp;·&nbsp;
+  <a href="#-platform-screenshots">📸 Screenshots</a>
+</p>
+
+---
+
+MantisClaw integrates autonomous agents across multiple channels so your team can command, automate, and supervise real operations from chat. Use direct or group conversations to run tasks, trigger workflows, and keep execution secure with local-first data control.
+
+
+## 🎬 Demo Videos
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=Kg5qzgYW6t0">
+        <img src="https://img.youtube.com/vi/Kg5qzgYW6t0/maxresdefault.jpg" alt="Demo Video 1" width="400" />
+        <br/><strong>▶ Demo Video 1</strong>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=gIy7jucDP_k">
+        <img src="https://img.youtube.com/vi/gIy7jucDP_k/maxresdefault.jpg" alt="Demo Video 2" width="400" />
+        <br/><strong>▶ Demo Video 2</strong>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=TMKbYffzvG8">
+        <img src="https://img.youtube.com/vi/TMKbYffzvG8/maxresdefault.jpg" alt="Demo Video 3" width="400" />
+        <br/><strong>▶ Demo Video 3</strong>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.youtube.com/watch?v=5ZqhoV3WO_0">
+        <img src="https://img.youtube.com/vi/5ZqhoV3WO_0/maxresdefault.jpg" alt="Demo Video 4" width="400" />
+        <br/><strong>▶ Demo Video 4</strong>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+---
+
+## 🚀 What's New
+
+- WhatsApp, Telegram, Slack, Built-in ChatUI channels
+- MantisClaw Blender MCP Control UI
+- MCP support for extensible tool discovery
+- OpenAI-compatible Tools & Advanced HTTP Call Support
+- Workflow — POC (under development)
+- 50+ Node Registry POC (under development)
+- Templates POC (under development)
+- Bug Fixes & Stability Improvements
+
+---
+
+## 🔒 Why MantisClaw Stands Out
+
+| Feature | Details |
+|---------|---------|
+| **Local Database** | Your accounts & keys never leave your computer |
+| **Runtime Key Injection** | Keys injected at runtime, never sent to LLM |
+| **Built-in Office Engine** | Word, Excel, PowerPoint, PDF — no external apps needed |
+
+---
+
+## Platform Capabilities
+
+- Control agents from WhatsApp, Telegram, Slack, and more
+- Run autonomous tasks on real desktop environments
+- Orchestrate multiple agents across teams, chats, and workflows
+- Use connectors, tools, and browser-integrated automation
+- Support local-first security for data and keys
+
+---
+
+## How MantisClaw Works
+
+1. Connect your channels and accounts
+2. Create or assign agents to tasks or teams
+3. Trigger commands from chat or automation rules
+4. Supervise results, logs, and approvals in real time
+5. Scale with skills, workflows, and templates
+
+---
+
+## Agent Architecture
+
+```text
+[WhatsApp / Telegram / Slack / Chat]\
+        |
+        v
+[Channel Layer]
+        |
+        v
+[Agent Orchestrator]
+        |
+        v→ [Skills / Tools / MCP]
+        v
+[Local Execution Environment]
+        |
+        v→ [Browser / Files / APIs / Office Engine]
+```
+
+---
+
+## Agent Control Flow
+
+- User sends a command via WhatsApp/Telegram/Slack
+- MantisClaw routes the request to the right agent
+- Agent executes tools, browser steps, or workflows
+- Results are returned to the same chat channel
+- Optional approval, logging, and supervision are applied
+
+---
+
+## Why MantisClaw?
+
+- Desktop-first autonomous agent experience
+- Chat-native control across multiple platforms
+- Built-in security model for sensitive automation
+- No complex installation or external tooling required
+- Designed for real operations, not just demos
+
+---
+
+## Platform Screenshots
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/ChatUI.jpg" alt="Chat UI" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/ChatSupport.jpg" alt="Channel Support" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/AgentManage.jpg" alt="Agent Management" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/AgentDetail.jpg" alt="Agent Detail" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/AgentExecution.jpg" alt="Agent Execution" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/AgentConfig.jpg" alt="Agent Config" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/Browser.jpg" alt="Browser Automation" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/BrowserControl.jpg" alt="Browser Control" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/Builder.jpg" alt="Workflow Builder" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/Nodes.jpg" alt="Node Registry" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/Blender.jpg" alt="Blender Integration" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/CodeExecution.jpg" alt="Code Execution" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/FileView.jpg" alt="File View" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/BuiltInOffice.jpg" alt="Built-In Office Engine" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/LocalDatabase.jpg" alt="Local Database" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/Services.jpg" alt="Connected Services" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/Scheduler.jpg" alt="Scheduler" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/Settings.jpg" alt="Settings" width="85%" />
+</p>
