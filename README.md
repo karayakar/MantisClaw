@@ -1,1 +1,118 @@
-Cgo8aDEgYWxpZ249ImNlbnRlciI+8J+mhSBNYW50aXNDbGF3IC0gRGVza3RvcCBDVUEgKENvbXB1dGVyIFVzZSBBZ2VudCk8L2gxPgoKLS0tCgojIyBNdWx0aS1QbGF0Zm9ybSAgLSBXaW5kb3dzIC8gTGludXggLyBNYWMgT1MgLSBJbnRlbCAvIE1hYyBPUyBTaWxpY29uCgotLS0uCgojIyAgVXNlIENvbXB1dGVyICYgQnJvd3NlcgotIE9wZW4gd2ViY2FtIC0gVXNlIFJlYWwgQnJvd3NlciAoUGFzcyBDbG91ZGZsYXJlICYgYm90IHZlcmlmaWNhdGlvbnMpIC1UYWtlIFNjcmVlbnNob3QgLSBzY3JvbGwgLSBjbGlja19idXR0b24gLSBsb2dpbiAtIGNoZWNrLWVtYWlsCiAgCi0tLQojIyBVbmxpbWl0ZWQgQWdlbnRzCi0tLQotIFVubGltaXRlZCBTY2VuYXJpb3MgLSBVbmxpbWl0ZWQgU2tpbGxzIChJdCB3cml0ZXMsIGRlYnVnLCBleGVjdXRlcyBza2lsbHMgYnkgSXRzZWxmIC1TZWxmLWhlYWxpbmcpCgojIyMgQ2hhbm5lbHMKQ29ubmVjdCBhbmQgbWFuYWdlIG11bHRpcGxlIG1lc3NhZ2luZyBjaGFubmVscyDigJQgV2hhdHNBcHAsIFRlbGVncmFtLCBTbGFjaywgQnVpbHQtaW4gQ2hhdCwgQmxlbmRlciBDaGF0IC4uIGFuZCBtb3JlLgoKIVtDaGFubmVsc10oaHR0cHM6Ly9tYW50aXNjbGF3LnlhcHplay5haS9hc3NldHMvU2NyZWVuc2hvdHMvQ2hhbm5lbHMucG5nKQoKCjxwIGFsaWduPSJjZW50ZXIiPgogIDxhIGhyZWY9Imh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkiPgogICAgPGltZyBzcmM9Imh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkvYXNzZXRzL1NjcmVlbnNob3RzL0FyY2hpdGVjdHVyZS5wbmciIGFsdD0iTWFudGlzQ2xhdyBBcmNoaXRlY3R1cmUiIHdpZHRoPSIxMDAlIiAvPgogIDwvYT4KPC9wPgoKPHAgYWxpZ249ImNlbnRlciI+PHN0cm9uZz5NdWx0aS1QbGF0Zm9ybSBBdXRvbm9tb3VzIEFnZW50IOKAlCBDb250cm9sIGZyb20gV2hhdHNBcHAsIFRlbGVncmFtLCBTbGFjaywgYW5kIG1vcmU8L3N0cm9uZz48L3A+CjxwIGFsaWduPSJjZW50ZXIiPjxlbT5UaGUgYmVzdCBHVUkgQ29tcHV0ZXIgVXNlIEFnZW50LiBObyBjb21wbGV4IHNldHVwIOKAlCBqdXN0IGRvd25sb2FkIGFuZCBydW4uIEFsbCBmZWF0dXJlcyBhcmUgYWxyZWFkeSBidWlsdC1pbi48L2VtPjwvcD4KCjxwIGFsaWduPSJjZW50ZXIiPgogIDxhIGhyZWY9Imh0dHBzOi8vbWFudGlzY2xhdy55YXB6ZWsuYWkiPvCfjJAgV2Vic2l0ZTwvYT4gJm5ic3A74oC3Jm5ic3A7CiAgPGEgaHJlZj0iaHR0cHM6Ly9tYW50aXNjbGF3LnlhcHplay5haS9kb3dubG9hZCIgdGFyZ2V0PSJfYmxhbmsiPuKsj++4jyBEb3dubG9hZDwvYT4gJm5ic3A74oC3Jm5ic3A7CiAgPGEgaHJlZj0iIy0tZGVtby12aWRlb3MiPvCfjqwgRGVtbyBWaWRlb3M8L2E+ICZuYnNwO+KAtyZuYnNwOwogIDxhIGhyZWY9IiMtLXBsYXRmb3JtLXNjcmVlbnNob3RzIj7wn5O4IFNjcmVlbnNob3RzPC9hPgo8L3A+CgotLS0KCk1hbnRpc0NsYXcgaW50ZWdyYXRlcyBhdXRvbm9tb3VzIGFnZW50cyBhY3Jvc3MgbXVsdGlwbGUgY2hhbm5lbHMgc28geW91ciB0ZWFtIGNhbiBjb21tYW5kLCBhdXRvbWF0ZSwgYW5kIHN1cGVydmlzZSByZWFsIG9wZXJhdGlvbnMgZnJvbSBjaGF0LiBVc2UgZGlyZWN0IG9yIGdyb3VwIGNvbnZlcnNhdGlvbnMgdG8gcnVuIHRhc2tzLCB0cmlnZ2VyIHdvcmtmbG93cywgYW5kIGtlZXAgZXhlY3V0aW9uIHNlY3VyZSB3aXRoIGxvY2FsLWZpcnN0IGRhdGEgY29udHJvbC4KCgojIyDwn46sIERlbW8gVmlkZW9zCgo8dGFibGU+CiAgPHRyPgogICAgPHRkIGFsaWduPSJjZW50ZXIiPgogICAgICA8YSBocmVmPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PUtnNXF6Z1lXNnQwIj4KICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9pbWcueW91dHViZS5jb20vdmkvS2c1cXpnWVc2dDAvbWF4cmVzZGVmYXVsdC5qcGciIGFsdD0iRGVtbyBWaWRlbyAxIiB3aWR0aD0iNDAwIiAvPgogICAgICAgIDxici8+PHN0cm9uZz7ilrYgRGVtbyBWaWRlbyAxPC9zdHJvbmc+CiAgICAgIDwvYT4KICAgIDwvdGQ+CiAgICA8dGQgYWxpZ249ImNlbnRlciI+CiAgICAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Z0l5N2p1Y0RQX2siPgogICAgICAgIDxpbWcgc3JjPSJodHRwczovL2ltZy55b3V0dWJlLmNvbS92aS9nSXk3anVjRFBfay9tYXhyZXNkZWZhdWx0LmpwZyIgYWx0PSJEZW1vIFZpZGVvIDIiIHdpZHRoPSI0MDAiIC8+CiAgICAgICAgPGJyLz48c3Ryb25nPuKWtiBEZW1vIFZpZGVvIDI8L3N0cm9uZz4KICAgICAgPC9hPgogICAgPC90ZD4KICA8L3RyPgogIDx0cj4KICAgIDx0ZCBhbGlnbj0iY2VudGVyIj4KICAgICAgPGEgaHJlZj0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1UTUtiWWZmenZHOCI+CiAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vaW1nLnlvdXR1YmUuY29tL3ZpL1RNS2JZZmZ6dkc4L21heHJlc2RlZmF1bHQuanBnIiBhbHQ9IkRlbW8gVmlkZW8gMyIgd2lkdGg9IjQwMCIgLz4KICAgICAgICA8YnIvPjxzdHJvbmc+4pa2IERlbW8gVmlkZW8gMzwvc3Ryb25nPgogICAgICA8L2E+CiAgICA8L3RkPgogICAgPHRkIGFsaWduPSJjZW50ZXIiPgogICAgICA8YSBocmVmPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTVacWhvVjNXT18wIj4KICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9pbWcueW91dHViZS5jb20vdmkvNVpxaG9WM1dPXzAvbWF4cmVzZGVmYXVsdC5qcGciIGFsdD0iRGVtbyBWaWRlbyA0IiB3aWR0aD0iNDAwIiAvPgogICAgICAgIDxici8+PHN0cm9uZz7ilrYgRGVtbyBWaWRlbyA0PC9zdHJvbmc+CiAgICAgIDwvYT4KICAgIDwvdGQ+CiAgPC90cj4KPC90YWJsZT4KCgotLS0KCiMjIPCfmoAgV2hhdCdzIE5ldwoKLSBXaGF0c0FwcCwgVGVsZWdyYW0sIFNsYWNrLCBCdWlsdC1pbiBDaGF0VUkgY2hhbm5lbHMKLSBNYW50aXNDbGF3IEJsZW5kZXIgTUNQIENvbnRyb2wgVUktLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCk1DUCBzdXBwb3J0IGZvciBleHRlbnNpYmxlIHRvb2wgZGlzY292ZXJ5Ci0gT3BlbkFJLWNvbXBhdGlibGUgVG9vbHMgJiBBZHZhbmNlZCBIVFRQIENhbGwgU3VwcG9ydAotIFdvcmtmbG93IOKAlCBQT0MgKHVuZGVyIGRldmVsb3BtZW50KQotIDUwKyBOb2RlIFJlZ2lzdHJ5IFBPQyAodW5kZXIgZGV2ZWxvcG1lbnQpCi0gVGVtcGxhdGVzIFBPQyAodW5kZXIgZGV2ZWxvcG1lbnQpCi0gQnVnIEZpeGVzICYgU3RhYmlsaXR5IEltcHJvdmVtZW50cwoKLS0tCgojIyDwn5SSIFdoeSBNYW50aXNDbGF3IFN0YW5kcyBPdXQKCnwgRmVhdHVyZSB8IERldGFpbHMgfAp8LS0tLS0tLS18LS0tLS0tLS0tfAp8ICoqTG9jYWwgRGF0YWJhc2UqKiB8IFlvdXIgYWNjb3VudHMgJiBrZXlzIG5ldmVyIGxlYXZlIHlvdXIgY29tcHV0ZXIgfAp8ICoqUnVudGltZSBLZXkgSW5qZWN0aW9uKiogfCBLZXlzIGluamVjdGVkIGF0IHJ1bnRpbWUsIG5ldmVyIHNlbnQgdG8gTExNIHwKfCAqKkJ1aWx0LWluIE9mZmljZSBFbmdpbmUqKiB8IFdvcmQsIEV4Y2VsLCBQb3dlclBvaW50LCBQREYg4oCUIGFsbCBidWlsdCBpbiB8CnwqKkxvY2FsLUZpcnN0IEFyY2hpdGVjdHVyZSoqIHwgRGF0YSByZW1haW5zIHVuZGVyIHlvdXIgY29udHJvbCB8CgojIyDwn5a1IFBsYXRmb3JtIENhcGFiaWxpdGllcwoKLSBMb2NhbCBBY2NvdW50cyBhbmQgQVBJIEtleSBNYW5hZ2VtZW50Ci0gTXVsdGktQ2hhbm5lbCBDb21tdW5pY2F0aW9uIChXaGF0c0FwcCwgVGVsZWdyYW0sIFNsYWNrLCBlbWFpbCwgQ2hhdFVJKQotIFdvcmtmbG93IFJ1bm5lciBhbmQgTm9kZS1iYXNlZCBFeGVjdXRpb24gKE1DUCBhbmQgSFRUUCBzdXBwb3J0KQotIEJ1aWx0LWluIE9mZmljZSBFbmdpbmUgKFdvcmQsIEV4Y2VsLCBQb3dlclBvaW50LCBQREYpCi0gQnJvd3NlciBBdXRvbWF0aW9uIGFuZCBDb21wdXRlciBVc2UgQWdlbnRzCi0gTWFudWFsIGFuZCBMTE0tQ29udHJvbGxlZCBBZ2VudCBNb2RlcwoKLS0tCgojIyDwn5SnIEhvdyBNYW50aXNDbGF3IFdvcmtzCgpNYW50aXNDbGF3IGlzIGRlc2lnbmVkIGFzIGEgZnVsbC1zdGFjayBsb2NhbCBhZ2VudCBwbGF0Zm9ybToKCi0gQ29udHJvbCBhZ2VudHMgZnJvbSBjaGF0IGNoYW5uZWxzCi0gUnVuIHRvb2xzIGFuZCB3b3JrZmxvd3MgbG9jYWxseQotIEtlZXAgY3JlZGVudGlhbHMgYW5kIGV4ZWN1dGlvbiB1bmRlciB5b3VyIG93biBpbnZpcm9ubWVudAotIEF1dG9tYXRlIGNvbXB1dGVyIHVzZSB3aXRoIHNjcmVlbnNob3RzLCBicm93c2VycywgYW5kIGRlY2lzaW9uIGxvb3BzCgotLS0KCiMjIPCfp6AgQWdlbnQgQXJjaGl0ZWN0dXJlCgo8cCBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iaHR0cHM6Ly9tYW50aXNjbGF3LnlhcHplay5haS9hc3NldHMvU2NyZWVuc2hvdHMvQXJjaGl0ZWN0dXJlLnBuZyIgYWx0PSJNYW50aXNDbGF3IEFyY2hpdGVjdHVyZSIgd2lkdGg9IjEwMCUiIC8+CjwvcD4KCi0tLQoKIyMg8J+noyBBZ2VudCBDb250cm9sIEZsb3cKCjxwIGFsaWduPSJjZW50ZXIiPgogIDxpbWcgc3JjPSJodHRwczovL21hbnRpc2NsYXcueWFwemVrLmFpL2Fzc2V0cy9TY3JlZW5zaG90cy9BZ2VudENvbnRyb2xGbG93LnBuZyIgYWx0PSJBZ2VudCBDb250cm9sIEZsb3ciIHdpZHRoPSIxMDAlIiAvPgo8L3A+CgotLS0KCiMjIOKcqCBXaHkgTWFudGlzQ2xhdz8KCi0gVHJ1ZSBEZXNrdG9wIENTQQotIExvY2FsLWZpcnN0IGRlc2lnbgotIFJlYWwgYnJvd3NlciBhbmQgY29tcHV0ZXIgY29udHJvbAotIE11bHRpLWNoYW5uZWwgYWdlbnQgb3JjaGVzdHJhdGlvbgotIE5vIGV4dHJhIHBsdWdpbnMgb3Igc2VydmVycyByZXF1aXJlZAoKLS0tCgojIyDwn5O4IFBsYXRmb3JtIFNjcmVlbnNob3RzCgo8cCBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iaHR0cHM6Ly9tYW50aXNjbGF3LnlhcHplay5haS9hc3NldHMvU2NyZWVuc2hvdHMvQ2hhdFVJLmpwZyIgYWx0PSJDaGF0IFVJIiB3aWR0aD0iNDklIiAvPgogIDxpbWcgc3JjPSJodHRwczovL21hbnRpc2NsYXcueWFwemVrLmFpL2Fzc2V0cy9TY3JlZW5zaG90cy9DaGFubmVscy5wbmciIGFsdD0iQ2hhbm5lbHMiIHdpZHRoPSI0OSUiIC8+CjwvcD4KCiAg
+<h1 align="center">🦅 MantisClaw - Desktop CUA (Computer Use Agent)</h1>
+
+---
+
+## Multi-Platform  - Windows / Linux / Mac OS - Intel / Mac OS Silicon
+
+---.
+
+##  Use Computer & Browser
+- Open webcam - Use Real Browser (Pass Cloudflare & bot verifications) -Take Screenshot - scroll - click_button - login - check-email
+  
+---
+## Unlimited Agents
+---
+- Unlimited Scenarios - Unlimited Skills (It writes, debug, executes skills by Itself -Self-healing)
+
+### Channels
+Connect and manage multiple messaging channels — WhatsApp, Telegram, Slack, Built-in Chat, Blender Chat .. and more.
+
+![Channels](https://mantisclaw.yapzek.ai/assets/Screenshots/Channels.png)
+
+
+<p align="center">
+  <a href="https://mantisclaw.yapzek.ai">
+    <img src="https://mantisclaw.yapzek.ai/assets/Screenshots/Architecture.png" alt="MantisClaw Architecture" width="100%" />
+  </a>
+</p>
+
+<p align="center"><strong>Multi-Platform Autonomous Agent — Control from WhatsApp, Telegram, Slack, and more</strong></p>
+<p align="center"><em>The best GUI Computer Use Agent. No complex setup — just download and run. All features are already built-in.</em></p>
+
+<p align="center">
+  <a href="https://mantisclaw.yapzek.ai">🌐 Website</a> &nbsp;‷&nbsp;
+  <a href="https://mantisclaw.yapzek.ai/download" target="_blank">⬏️ Download</a> &nbsp;‷&nbsp;
+  <a href="#--demo-videos">🎬 Demo Videos</a> &nbsp;‷&nbsp;
+  <a href="#--platform-screenshots">📸 Screenshots</a>
+</p>
+
+---
+
+MantisClaw integrates autonomous agents across multiple channels so you can manage workflows, trigger actions, and monitor operations directly from your preferred messaging platform.
+
+## Demo Videos
+
+- [Watch Demo 1](https://mantisclaw.yapzek.ai/assets/Videos/MantisClaw_Demo_1.mp4)
+- [Watch Demo 2](https://mantisclaw.yapzek.ai/assets/Videos/MantisClaw_Demo_2.mp4)
+- [Watch Demo 3](https://mantisclaw.yapzek.ai/assets/Videos/MantisClaw_Demo_3.mp4)
+- [Watch Demo 4](https://mantisclaw.yapzek.ai/assets/Videos/MantisClaw_Demo_4.mp4)
+- [Watch Demo 5](https://mantisclaw.yapzek.ai/assets/Videos/MantisClaw_Demo_5.mp4)
+- [Watch Demo 6](https://mantisclaw.yapzek.ai/assets/Videos/MantisClaw_Demo_6.mp4)
+
+---
+
+## What's New
+
+- ✅ WhatsApp, Telegram, Slack, Built-in ChatUI
+- ✅ Blender MCP Control UI
+- ✅ MCP Support
+- ✅ OpenAI Compatible Tools
+- ✅ Advanced HTTP Call Support
+- 🚧 Workflow Node Registry (POC)
+- 🚧 Workflow Templates (Under Development)
+
+---
+
+## Why MantisClaw Stands Out
+
+- **Local-first data control**
+- **No complex setup**
+- **Built-in channels and tools**
+- **Multi-platform support**
+
+---
+
+## Platform Capabilities
+
+- Computer use automation
+- Browser automation
+- Messaging channel integrations
+- Workflow execution
+- Screenshot and interaction support
+- Office document generation
+
+---
+
+## How MantisClaw Works
+
+MantisClaw combines autonomous agents, browser/computer control, workflows, and messaging integrations into a single desktop platform.
+
+---
+
+## Agent Architecture
+
+The platform is designed around agents, skills, tools, and workflows that can be orchestrated from chat interfaces.
+
+---
+
+## Agent Control Flow
+
+Users send requests through supported channels, agents interpret the task, invoke tools/skills/workflows, and return results.
+
+---
+
+## Why MantisClaw?
+
+Because it provides a practical desktop computer-use agent with ready-made integrations and minimal setup.
+
+---
+
+## Platform Screenshots
+
+![Screenshot 1](https://mantisclaw.yapzek.ai/assets/Screenshots/1.png)
+![Screenshot 2](https://mantisclaw.yapzek.ai/assets/Screenshots/2.png)
+![Screenshot 3](https://mantisclaw.yapzek.ai/assets/Screenshots/3.png)
+![Screenshot 4](https://mantisclaw.yapzek.ai/assets/Screenshots/4.png)
+![Screenshot 5](https://mantisclaw.yapzek.ai/assets/Screenshots/5.png)
+![Screenshot 6](https://mantisclaw.yapzek.ai/assets/Screenshots/6.png)
+![Screenshot 7](https://mantisclaw.yapzek.ai/assets/Screenshots/7.png)
